@@ -9,13 +9,11 @@
 </thead>
 <tbody>
 <% @students.each do |student|%>
-<% if student.first_name == 'Zach' %>
 <tr>
 <td><%= student.first_name %></td>
 <td><%= student.last_name %></td>
 <td><%= student.email_address %></td>
 </tr>
-<% end %>
 <% end %>
 </tbody>
 </table>
